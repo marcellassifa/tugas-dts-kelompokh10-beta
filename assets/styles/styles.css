@@ -1,27 +1,86 @@
-header{
-    display: inline;
+header {
+  height: 85px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  
+  /* Ubah z-index ke 10 */
+  z-index: 10;
 }
 
-.jumbotron{
-    font-size: 30px;
-    padding: 70px;
-    background-color: coral;
-    text-align: center;
-    color: wheat;
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-nav{
-    display: inline;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-    color: black
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-nav li{
-    display: inline;
-    list-style-type: none;
-    margin-left: 30px;
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h3 {
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.logo {
+  width: 85px;
+  margin-bottom: 10px;
+  /*margin-left: 10px;*/
+}
+
+.header-lefttext{
+  float: left;
+  color: #ffff;
+  font-family: "MV Boli";
+}
+
+.header-lefttext span{
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  /*padding-right: 30px;*/
+}
+
+.header-right a {
+  float: left;
+  padding: 13px 10px 13px 10px;
+  padding-bottom: 22px;
+  font-family: "Lucida Fax";
+  color: #ffff;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.5s;
+  /*display: block;*/
+}
+
+.header-right a:hover {
+  background-color: rgba(200, 255, 255, 0.5);
 }
 
 footer{
