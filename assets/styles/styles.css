@@ -1,0 +1,30 @@
+header{
+    display: inline;
+}
+
+.jumbotron{
+    font-size: 30px;
+    padding: 70px;
+    background-color: coral;
+    text-align: center;
+    color: wheat;
+}
+
+nav{
+    display: inline;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    color: black
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+footer{
+    padding: 50px;
+    background-color:chocolate;
+}
